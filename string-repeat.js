@@ -1,11 +1,7 @@
-// Make function take tow parameters => string & number
-//the number just be Not negative
-// make loop of string
-// retrun string * n
 function repeatStr(n, s) {
-    let empty = ''
+  let empty = "";
   for (let i = 0; i < n; i++) {
-    empty += s
+    empty += s;
   }
   return empty;
 }

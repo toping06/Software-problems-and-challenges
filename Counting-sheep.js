@@ -1,16 +1,13 @@
-// some thing is missing
-// we need make function that counts the number of sheep
-
 function countSheeps(sheep) {
   // TODO
   let count = 0;
- 
-   for (let i = 0; i < sheep.length; i++) {
-     if (sheep[i] === true) {
-     count++;
-     }
-   }
-   return count; 
+
+  for (let i = 0; i < sheep.length; i++) {
+    if (sheep[i] === true) {
+      count++;
+    }
+  }
+  return count;
 }
 
 console.log(

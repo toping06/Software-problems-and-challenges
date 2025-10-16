@@ -13,21 +13,6 @@ function countPositivesSumNegatives(input) {
   }
 
   return [emtyPositive.length, sumNegatives];
-
-  // your code here
-  //   if (!input || input.length === 0) {
-  //     return [];
-  //   }
-  //   let countPositives = 0;
-  //   let countNegatives = 0;
-  //   for (let i = 0; i < input.length; i++) {
-  //     if (input[i] > 0) {
-  //       countPositives++;
-  //     } else if (input[i] < 0) {
-  //       countNegatives += input[i];
-  //     }
-  //   }
-  //   return [countPositives, countNegatives];
 }
 
 console.log(
